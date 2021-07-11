@@ -53,6 +53,9 @@ class smhi_api:
         
         new_row = {'pcat': 999, 'pmean':999, 't': 999, 'wd':999, 'ws':999, 'r':999}
         
+        df['time'] = pd.to_datetime(df['time'])
+        df.set_index('time', inplace=True)
+        
         for houritem in self.forecast['timeSeries']:
             time = houritem['validTime']
             new_row['time'] = time
@@ -70,5 +73,9 @@ class smhi_api:
                                                  
             
             df = df.append(new_row,ignore_index=True)
-
+            df[['pmean','t','wd','ws','r']] = df[['pmean','t','wd','ws','r']].astype('float')
+            
+        df['time'] = pd.to_datetime(df['time'],format="%Y-%m-%dT%H:%M:%SZ")
+        df.set_index('time',inplace=True)
+            
         return df
