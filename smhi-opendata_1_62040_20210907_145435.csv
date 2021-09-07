@@ -1,24 +1,15 @@
-﻿Stationsnamn;Klimatnummer;Mäthöjd (meter över marken)
-Helsingborg A;62040;2.0
-
-Parameternamn;Beskrivning;Enhet
-Lufttemperatur;momentanvärde, 1 gång/tim;degree celsius
-
-Tidsperiod (fr.o.m);Tidsperiod (t.o.m);Höjd (meter över havet);Latitud (decimalgrader);Longitud (decimalgrader)
-1995-08-01 00:00:00;2021-09-07 14:00:00;43.0;56.0304;12.7653
-
-Datum;Tid (UTC);Lufttemperatur;Kvalitet;;Tidsutsnitt:
-2021-04-30;01:00:00;6.0;G;;Data från senaste fyra månaderna
-2021-04-30;02:00:00;5.3;G;;Tidsperiod (fr.o.m.) = 2021-04-30 00:00:01 (UTC)
-2021-04-30;03:00:00;4.4;G;;Tidsperiod (t.o.m.) = 2021-09-07 14:00:00 (UTC)
-2021-04-30;04:00:00;3.3;G;;Samplingstid = Ej angivet
-2021-04-30;05:00:00;4.7;G;;
-2021-04-30;06:00:00;6.0;G;;Kvalitetskoderna:
-2021-04-30;07:00:00;8.3;G;;Grön (G) = Kontrollerade och godkända värden.
-2021-04-30;08:00:00;10.3;G;;Gul (Y) = Misstänkta eller aggregerade värden. Grovt kontrollerade arkivdata och okontrollerade realtidsdata (senaste 2 tim).
-2021-04-30;09:00:00;11.6;G;;
-2021-04-30;10:00:00;12.1;G;;Orsaker till saknade data:
-2021-04-30;11:00:00;12.3;G;;  stationen eller givaren har varit ur funktion.
+Datum;Tid (UTC);Lufttemperatur;Kvalitet
+2021-04-30;01:00:00;6.0;G
+2021-04-30;02:00:00;5.3;G
+2021-04-30;03:00:00;4.4;G
+2021-04-30;04:00:00;3.3;G
+2021-04-30;05:00:00;4.7;G
+2021-04-30;06:00:00;6.0;G
+2021-04-30;07:00:00;8.3;G
+2021-04-30;08:00:00;10.3;G
+2021-04-30;09:00:00;11.6;G
+2021-04-30;10:00:00;12.1;G
+2021-04-30;11:00:00;12.3;G
 2021-04-30;12:00:00;11.5;G
 2021-04-30;13:00:00;12.8;G
 2021-04-30;14:00:00;13.5;G
