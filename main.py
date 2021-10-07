@@ -13,7 +13,7 @@ from utils import plot_HumidTemp
 api = smhi_api()
  
 api.parameters = api._GetParameters()
-api.forecast = api._GetPointForecast(57.005,12.432)
+api.forecast = api._GetPointForecast(57.71,11.95)
 
 api.referenceTime = api.forecast['referenceTime']
 
@@ -24,6 +24,3 @@ df = api.parseForecast()
 # %% Plotting- and Post Processing
 
 plot_HumidTemp(df,48)
-
-# plt.plot(df.r)
-# plt.show()

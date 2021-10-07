@@ -36,6 +36,8 @@ def plot_HumidTemp(df_in, hours):
     plt.plot(df['pmean'], 'b', label = 'Mean Percipitation (mm/h)')
     plt.legend()
     
+    plt.show()
+
     # plt.xticks(rotation=30)
     # plt.plot(df.r)
     # plt.plot(df.t)
